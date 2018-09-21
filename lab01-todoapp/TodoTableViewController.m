@@ -25,6 +25,8 @@
     self.todos = [[NSMutableArray alloc]init];
 
     [self loadInitialData];
+    
+    NSLog(@"This should appear on my github account!"); 
 
 }
 
